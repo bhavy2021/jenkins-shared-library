@@ -1,3 +1,3 @@
 def call() {
-    sh "npminstall"
+    sh "npm install"
 }
