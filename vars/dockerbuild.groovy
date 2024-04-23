@@ -8,3 +8,4 @@ def call(String dockerHubUsername, String imageName) {
         sh "docker push ${dockerHubUsername}/${imageName}:latest"
     }
 }
+
